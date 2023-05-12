@@ -1,4 +1,5 @@
 import React from "react";
+import '../style/card.css'
 
 const Card = ({ item, handleClick }) => {
 
@@ -7,7 +8,10 @@ const Card = ({ item, handleClick }) => {
     return (
         <div className="card">
             <div className="image_box">
-                <img src={item.img} alt=""/>
+                <img 
+                    src={item.img} 
+                    alt=""
+                />
             </div>
             <div className="details">
                 <p>{title}</p>

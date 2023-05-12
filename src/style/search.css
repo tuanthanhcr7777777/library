@@ -1,0 +1,31 @@
+.input input {
+    width: 700px;
+    height: 35px;
+    border-radius: 10px;
+    border: solid 1px ;
+}
+
+.input-value {
+    background-color: #FFCC33;
+
+}
+
+.input-value :hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.searchName {
+    position: absolute;
+    z-index: 99;
+    width: 700px;
+}
+
+.li-style {
+    list-style: none;
+}
+
+.li-style p {
+    padding-left: 15px;
+    color: white;
+}

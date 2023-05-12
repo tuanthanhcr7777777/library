@@ -41,6 +41,8 @@ function App() {
       {show ? <Amazone handleClick={ handleClick }/> : <Cart cart={cart} 
       setCart = {setCart} 
       handleChange={handleChange}/>}
+
+
     </div>
   );
 }
