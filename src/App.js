@@ -11,6 +11,7 @@ function App() {
   const [show, setShow] = useState(true)
   const [cart, setCart] = useState([])
 
+
   const handleClick = (item)=>{
 		let isPresent = false;
 		cart.forEach((product)=>{

@@ -5,11 +5,11 @@ const Cart = ({cart, setCart, handleChange}) => {
   const [price, setPrice] = useState(0);
 
   const handlePrice = ()=>{
-      let ans = 0;
+      let total = 0;
       cart.map((item)=>(
-          ans += item.amount * item.price
+          total += item.amount * item.price
       ))
-      setPrice(ans);
+      setPrice(total);
   }
 
   const handleRemove = (id) =>{
@@ -41,6 +41,7 @@ return (
                       <button onClick={()=>handleRemove(item.id)} >Remove</button>
                   </div>
               </div>
+              
           ))}
       <div className='total'>
           <span>Total </span>
